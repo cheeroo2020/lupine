@@ -1,0 +1,6 @@
+[Smart FX Suggestion] 7‑day summary with threshold logic
+Decision threshold: 1.00% total move
+
+- USD_AUD: falling (−1.32%) → Convert Now | USD weakening vs AUD | Consider holding AUD
+- EUR_AUD: falling (−3.01%) → Convert Now | EUR weakening vs AUD | Consider holding AUD
+- AUD_USD: N/A (data missing) → Hold position

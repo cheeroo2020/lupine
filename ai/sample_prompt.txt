@@ -1,0 +1,4 @@
+[Smart FX Suggestion] Based on the past 7 days:
+- USD_AUD: rising trend → Consider converting into AUD
+- EUR_AUD: falling trend → Consider converting out of AUD
+- AUD_USD: falling trend → Consider converting out of USD

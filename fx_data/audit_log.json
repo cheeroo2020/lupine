@@ -1,0 +1,126 @@
+[
+  {
+    "event_id": "e05f2b029a234b0cbd75ea353af9c9e7",
+    "timestamp": "2025-09-08T10:20:53Z",
+    "event": "conversion_settled",
+    "pair": "EUR_USD",
+    "amount_src": 200.0,
+    "status": "clear",
+    "reason": "within limits",
+    "rules": []
+  },
+  {
+    "event_id": "96ae46bc36b64c9cbb8442d6d8e5d919",
+    "timestamp": "2025-09-08T10:22:10Z",
+    "event": "conversion_settled",
+    "pair": "EUR_USD",
+    "amount_src": 200.0,
+    "status": "clear",
+    "reason": "within limits",
+    "rules": []
+  },
+  {
+    "event_id": "441f39e46721412f9991f6f9e52450a3",
+    "timestamp": "2025-09-22T10:01:51Z",
+    "schema": {
+      "name": "aiva.audit",
+      "version": "1.0"
+    },
+    "event": "conversion_settled",
+    "tx_id": "c2f4817dd5a94a3aaf9a8b81d54497cd",
+    "pair": "EUR_USD",
+    "fx_date_used": "2025-08-07",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": [],
+      "severity": "low"
+    },
+    "actor": {
+      "user_id": "local_dev",
+      "session_id": "cli"
+    }
+  },
+  {
+    "event_id": "a57c7684f7f94fe6bddbff5ba3b6f3a5",
+    "timestamp": "2025-09-22T10:21:15Z",
+    "schema": {
+      "name": "aiva.audit",
+      "version": "1.0"
+    },
+    "event": "conversion_settled",
+    "tx_id": "af254936ef644cd9b8a6d06574307f33",
+    "pair": "EUR_USD",
+    "fx_date_used": "2025-08-07",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": [],
+      "severity": "low"
+    },
+    "actor": {
+      "user_id": "local_dev",
+      "session_id": "cli"
+    }
+  },
+  {
+    "event_id": "583a9c278d82497784c2b7e091c10201",
+    "timestamp": "2025-09-22T10:21:31Z",
+    "schema": {
+      "name": "aiva.audit",
+      "version": "1.0"
+    },
+    "event": "conversion_settled",
+    "tx_id": "aa80fde642ce43aba4cc628dccdba9d0",
+    "pair": "USD_AUD",
+    "fx_date_used": "2025-08-07",
+    "rate": 1.5,
+    "amount_src": 15000.0,
+    "amount_dst": 22500.0,
+    "compliance": {
+      "status": "review",
+      "reason": "amount>10,000",
+      "rules_triggered": [
+        "threshold_review"
+      ],
+      "severity": "medium"
+    },
+    "actor": {
+      "user_id": "local_dev",
+      "session_id": "cli"
+    }
+  },
+  {
+    "event_id": "63759c3dcc11450691ba39ec6cde02d4",
+    "timestamp": "2025-09-22T10:21:43Z",
+    "schema": {
+      "name": "aiva.audit",
+      "version": "1.0"
+    },
+    "event": "conversion_attempt",
+    "tx_id": "763a8600440b443a8ee3be62bfaf16d1",
+    "pair": "USD_AUD",
+    "fx_date_used": "2025-08-07",
+    "rate": 1.5,
+    "amount_src": 60000.0,
+    "amount_dst": 0.0,
+    "compliance": {
+      "status": "blocked",
+      "reason": "amount>50,000",
+      "rules_triggered": [
+        "threshold_blocked"
+      ],
+      "severity": "high"
+    },
+    "actor": {
+      "user_id": "local_dev",
+      "session_id": "cli"
+    }
+  }
+]

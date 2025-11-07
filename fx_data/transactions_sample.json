@@ -1,0 +1,69 @@
+[
+  {
+    "id": "tx_001",
+    "type": "fx_convert",
+    "pair": "USD_AUD",
+    "amount_base": 250,
+    "method": "card"
+  },
+  {
+    "id": "tx_002",
+    "type": "send",
+    "currency": "AUD",
+    "amount": 120,
+    "method": "bank"
+  },
+  {
+    "id": "tx_003",
+    "type": "fx_convert",
+    "pair": "EUR_AUD",
+    "amount_base": 90,
+    "method": "wallet"
+  },
+  {
+    "timestamp": "2025-08-20T10:22:48Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 200.0,
+    "amount_dst": 300.0,
+    "balances_before": {
+      "USD": 600.0,
+      "EUR": 986.34,
+      "AUD": 1800.0
+    },
+    "balances_after": {
+      "USD": 400.0,
+      "EUR": 986.34,
+      "AUD": 2100.0
+    },
+    "carbon": {
+      "kg": 0.1,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "timestamp": "2025-08-23T06:41:16Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 300.0,
+    "amount_dst": 450.0,
+    "balances_before": {
+      "USD": 400.0,
+      "EUR": 986.34,
+      "AUD": 2100.0
+    },
+    "balances_after": {
+      "USD": 100.0,
+      "EUR": 986.34,
+      "AUD": 2550.0
+    },
+    "carbon": {
+      "kg": 0.15,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  }
+]

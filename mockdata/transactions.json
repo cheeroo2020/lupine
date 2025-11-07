@@ -1,0 +1,4 @@
+[
+  {"date": "2025-08-01", "pair": "AUD to USD", "amount": "100", "status": "Done"},
+  {"date": "2025-08-02", "pair": "AUD to EUR", "amount": "150", "status": "Pending"}
+]

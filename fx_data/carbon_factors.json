@@ -1,0 +1,8 @@
+{
+  "method_factor_kg_per_tx": {
+    "card": 0.12,
+    "bank": 0.06,
+    "wallet": 0.02
+  },
+  "fx_bonus_factor_kg_per_100_base": 0.03
+}

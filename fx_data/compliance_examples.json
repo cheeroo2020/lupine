@@ -1,0 +1,5 @@
+[
+  {"id":"c_001","amount":80,"dest_country":"AU","kyc_verified":true},
+  {"id":"c_002","amount":1200,"dest_country":"AU","kyc_verified":false},
+  {"id":"c_003","amount":50,"dest_country":"IR","kyc_verified":true}
+]

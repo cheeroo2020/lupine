@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Fintech Design System - Teal/Blue Theme */
+
+@layer base {
+  :root {
+    /* Light Theme */
+    --background: 220 14% 98%;
+    --foreground: 220 26% 14%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 220 26% 14%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 26% 14%;
+    
+    /* Primary - Fintech Teal */
+    --primary: 173 80% 40%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 173 80% 50%;
+    
+    /* Secondary - Modern Blue */
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 220 13% 94%;
+    --muted-foreground: 220 9% 46%;
+    
+    --accent: 173 50% 95%;
+    --accent-foreground: 173 80% 25%;
+    
+    /* Status Colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+    
+    --warning: 43 96% 56%;
+    --warning-foreground: 222.2 84% 4.9%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 173 80% 40%;
+    
+    /* Fintech Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(173 80% 40%), hsl(217 91% 60%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 14% 99%));
+    --gradient-hero: linear-gradient(135deg, hsl(173 80% 40% / 0.05), hsl(217 91% 60% / 0.05));
+    
+    /* Modern Shadows */
+    --shadow-card: 0 4px 24px hsl(220 13% 85% / 0.12);
+    --shadow-card-hover: 0 8px 32px hsl(220 13% 85% / 0.16);
+    --shadow-glow: 0 0 40px hsl(173 80% 40% / 0.15);
+    
+    /* Border Radius */
+    --radius: 1rem;
+    --radius-card: 1.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Theme */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222.2 84% 6%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222.2 84% 6%;
+    --popover-foreground: 210 40% 98%;
+    
+    /* Primary - Accessible Teal in Dark */
+    --primary: 173 80% 50%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --primary-glow: 173 80% 60%;
+    
+    /* Secondary - Accessible Blue in Dark */
+    --secondary: 217 91% 70%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --accent: 173 50% 15%;
+    --accent-foreground: 173 80% 75%;
+    
+    /* Status Colors - Dark Mode */
+    --success: 142 76% 45%;
+    --success-foreground: 222.2 84% 4.9%;
+    
+    --warning: 43 96% 65%;
+    --warning-foreground: 222.2 84% 4.9%;
+    
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 222.2 84% 4.9%;
+    
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 173 80% 50%;
+    
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(173 80% 50%), hsl(217 91% 70%));
+    --gradient-card: linear-gradient(135deg, hsl(222.2 84% 6%), hsl(217.2 32.6% 18%));
+    --gradient-hero: linear-gradient(135deg, hsl(173 80% 50% / 0.1), hsl(217 91% 70% / 0.1));
+    
+    /* Dark Shadows */
+    --shadow-card: 0 4px 24px hsl(0 0% 0% / 0.25);
+    --shadow-card-hover: 0 8px 32px hsl(0 0% 0% / 0.35);
+    --shadow-glow: 0 0 40px hsl(173 80% 50% / 0.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Fintech Animation & Transform Utilities */
+@layer utilities {
+  .transform-gpu {
+    transform-style: preserve-3d;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-200 ease-out hover:scale-[0.99] hover:shadow-card-hover;
+  }
+  
+  .timeline-item {
+    @apply transition-all duration-150 ease-out hover:bg-accent/50;
+  }
+  
+  .theme-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}

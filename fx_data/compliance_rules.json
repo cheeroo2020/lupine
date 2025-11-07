@@ -1,0 +1,14 @@
+{
+  "kyc_required_above": 1000,
+  "blocked_countries": ["XK", "IR", "KP"],
+  "explanations": {
+    "KYC_REQUIRED": "This transaction is above the KYC threshold. Please verify your identity to proceed.",
+    "COUNTRY_BLOCKED": "We can’t process transfers to this country due to sanctions/regulations.",
+    "OK": "All good. No compliance issues detected."
+  },
+  "next_steps": {
+    "KYC_REQUIRED": "Open the profile page and complete KYC (ID + address).",
+    "COUNTRY_BLOCKED": "Select a different destination or contact support for alternatives.",
+    "OK": "Proceed with the transaction."
+  }
+}

@@ -1,0 +1,342 @@
+[
+  {
+    "tx_id": "876be0f08d2843b39739329f9f71baa3",
+    "timestamp": "2025-08-25T09:28:08Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "balances_before": {
+      "USD": 100.0,
+      "EUR": 986.34,
+      "AUD": 2550.0
+    },
+    "balances_after": {
+      "USD": 153.67,
+      "EUR": 936.34,
+      "AUD": 2550.0
+    },
+    "carbon": {
+      "kg": 0.03,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "tx_id": "71314abe551a4ef9a2f4f8c782efc607",
+    "timestamp": "2025-08-25T09:38:50Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 200.0,
+    "amount_dst": 300.0,
+    "balances_before": {
+      "USD": 1200.0,
+      "EUR": 936.34,
+      "AUD": 2550.0
+    },
+    "balances_after": {
+      "USD": 1000.0,
+      "EUR": 936.34,
+      "AUD": 2850.0
+    },
+    "carbon": {
+      "kg": 0.1,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "tx_id": "7abdeda932c448fb884b873a7efb3670",
+    "timestamp": "2025-08-25T09:40:03Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_EUR",
+    "rate": 0.931677,
+    "amount_src": 25.0,
+    "amount_dst": 23.29,
+    "balances_before": {
+      "USD": 1000.0,
+      "EUR": 936.34,
+      "AUD": 2850.0
+    },
+    "balances_after": {
+      "USD": 975.0,
+      "EUR": 959.63,
+      "AUD": 2850.0
+    },
+    "carbon": {
+      "kg": 0.01,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "tx_id": "8c5c3e5b1ea9418da6b39fb590285530",
+    "timestamp": "2025-08-25T09:40:25Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "AUD_USD",
+    "rate": 0.666667,
+    "amount_src": 350.0,
+    "amount_dst": 233.33,
+    "balances_before": {
+      "USD": 975.0,
+      "EUR": 959.63,
+      "AUD": 2850.0
+    },
+    "balances_after": {
+      "USD": 1208.33,
+      "EUR": 959.63,
+      "AUD": 2500.0
+    },
+    "carbon": {
+      "kg": 0.17,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "tx_id": "a4ec7feb55cd4e06900e57b9d26abe36",
+    "timestamp": "2025-08-25T09:46:01Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 15000.0,
+    "amount_dst": 22500.0,
+    "balances_before": {
+      "USD": 20000.0,
+      "EUR": 1000.0,
+      "AUD": 1000.0
+    },
+    "balances_after": {
+      "USD": 5000.0,
+      "EUR": 1000.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 7.5,
+      "badge": "High"
+    },
+    "compliance": "Review"
+  },
+  {
+    "tx_id": "acf39cc7291e451e93ecefe544203d4d",
+    "timestamp": "2025-08-31T07:47:45Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "balances_before": {
+      "USD": 5000.0,
+      "EUR": 1000.0,
+      "AUD": 23500.0
+    },
+    "balances_after": {
+      "USD": 5053.67,
+      "EUR": 950.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 0.03,
+      "badge": "Low"
+    },
+    "compliance": "Clear"
+  },
+  {
+    "tx_id": "20f35b73af3c40bca852078ee7a0b518",
+    "timestamp": "2025-08-31T07:53:54Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 15000.0,
+    "amount_dst": 22500.0,
+    "balances_before": {
+      "USD": 20000,
+      "EUR": 1000,
+      "AUD": 1000
+    },
+    "balances_after": {
+      "USD": 5000.0,
+      "EUR": 1000,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 7.5,
+      "badge": "High"
+    },
+    "compliance": "Review"
+  },
+  {
+    "tx_id": "974d597e1cae45cd94d89419a5367de2",
+    "timestamp": "2025-09-08T10:20:53Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 200.0,
+    "amount_dst": 214.67,
+    "balances_before": {
+      "USD": 5000.0,
+      "EUR": 1000,
+      "AUD": 23500.0
+    },
+    "balances_after": {
+      "USD": 5214.67,
+      "EUR": 800.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 0.1,
+      "badge": "Low"
+    },
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": []
+    }
+  },
+  {
+    "tx_id": "0c72fc3b71684b1db731d54f41e6a854",
+    "timestamp": "2025-09-08T10:22:10Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 200.0,
+    "amount_dst": 214.67,
+    "balances_before": {
+      "USD": 5214.67,
+      "EUR": 800.0,
+      "AUD": 23500.0
+    },
+    "balances_after": {
+      "USD": 5429.34,
+      "EUR": 600.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 0.1,
+      "badge": "Low"
+    },
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": []
+    }
+  },
+  {
+    "tx_id": "c2f4817dd5a94a3aaf9a8b81d54497cd",
+    "timestamp": "2025-09-22T10:01:51Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "balances_before": {
+      "USD": 5429.34,
+      "EUR": 600.0,
+      "AUD": 23500.0
+    },
+    "balances_after": {
+      "USD": 5483.01,
+      "EUR": 550.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 0.03,
+      "badge": "Low"
+    },
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": []
+    }
+  },
+  {
+    "tx_id": "af254936ef644cd9b8a6d06574307f33",
+    "timestamp": "2025-09-22T10:21:15Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "EUR_USD",
+    "rate": 1.073333,
+    "amount_src": 50.0,
+    "amount_dst": 53.67,
+    "balances_before": {
+      "USD": 120000.0,
+      "EUR": 1000.0,
+      "AUD": 1000.0
+    },
+    "balances_after": {
+      "USD": 120053.67,
+      "EUR": 950.0,
+      "AUD": 1000.0
+    },
+    "carbon": {
+      "kg": 0.03,
+      "badge": "Low"
+    },
+    "compliance": {
+      "status": "clear",
+      "reason": "within limits",
+      "rules_triggered": []
+    }
+  },
+  {
+    "tx_id": "aa80fde642ce43aba4cc628dccdba9d0",
+    "timestamp": "2025-09-22T10:21:31Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 15000.0,
+    "amount_dst": 22500.0,
+    "balances_before": {
+      "USD": 120053.67,
+      "EUR": 950.0,
+      "AUD": 1000.0
+    },
+    "balances_after": {
+      "USD": 105053.67,
+      "EUR": 950.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 7.5,
+      "badge": "High"
+    },
+    "compliance": {
+      "status": "review",
+      "reason": "amount>10,000",
+      "rules_triggered": [
+        "threshold_review"
+      ]
+    }
+  },
+  {
+    "tx_id": "763a8600440b443a8ee3be62bfaf16d1",
+    "timestamp": "2025-09-22T10:21:43Z",
+    "fx_date_used": "2025-08-07",
+    "pair": "USD_AUD",
+    "rate": 1.5,
+    "amount_src": 60000.0,
+    "amount_dst": 0.0,
+    "balances_before": {
+      "USD": 105053.67,
+      "EUR": 950.0,
+      "AUD": 23500.0
+    },
+    "balances_after": {
+      "USD": 105053.67,
+      "EUR": 950.0,
+      "AUD": 23500.0
+    },
+    "carbon": {
+      "kg": 30.0,
+      "badge": "High"
+    },
+    "compliance": {
+      "status": "blocked",
+      "reason": "amount>50,000",
+      "rules_triggered": [
+        "threshold_blocked"
+      ]
+    }
+  }
+]
